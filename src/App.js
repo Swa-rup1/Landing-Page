@@ -6,6 +6,8 @@ import Review from './components/Review';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import styles from './global.module.css';
 import './index.css'; 
 

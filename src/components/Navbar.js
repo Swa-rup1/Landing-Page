@@ -1,6 +1,8 @@
 import React from 'react';
 import cranfruitImage from '../source/cranfruit.png';
 function Navbar() {
+
+
   return (
     <nav className="navbar navbar-expand-lg mx-2">
       <section className="container-fluid">
@@ -13,15 +15,15 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div className="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+        <div className={`collapse navbar-collapse col-md-6 `} id="navbarNav">
+        
           <ul className="navbar-nav nav-links nav-ul">
             <li className="nav-item nav-li">
               <a className="nav-link nav-a" href="#home">
@@ -52,6 +54,7 @@ function Navbar() {
         </div>
       </section>
     </nav>
+       
   );
 }
 

@@ -59,6 +59,18 @@ ul li.nav-li a.nav-a:hover {
       margin-left: 1rem; 
 }
 
+.container-fluid {
+  transition: padding-top 0.3s; /* Smooth transition for padding */
+}
+
+.navbar-expand-lg .navbar-collapse.show {
+  margin-bottom: 1rem; /* Additional margin to prevent overlap */
+}
+
+.navbar-expand-lg .navbar-collapse.show + * {
+  padding-top: 3.5rem; /* Adjust padding for elements below navbar */
+}
+
 /* mainbody-container CSS */
 
 /* .mainbody-container {
@@ -125,12 +137,12 @@ ul li.nav-li a.nav-a:hover {
   transform: translateY(10px);
 }
 
-.wave {
+/* .wave {
   position: absolute;
   height: 300px;
   width: 300px;
   /* height: 150px; */
-}
+*/
 
 /* Features CSS */
 
