@@ -24,7 +24,7 @@
   z-index: 2;
 }
 
-.nav-space{
+.nav-space {
   margin-top: 0.1rem;
 }
 
@@ -53,31 +53,23 @@ ul li.nav-li a.nav-a:hover {
 }
 
 .nav-logo {
-      height: 3rem;
-      width: 5rem;
-      border-radius: 50%;
-      margin-left: 1rem; 
+  height: 3rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
 }
 
 .container-fluid {
-  transition: padding-top 0.3s; /* Smooth transition for padding */
+  transition: padding-top 0.3s;
 }
 
 .navbar-expand-lg .navbar-collapse.show {
-  margin-bottom: 1rem; /* Additional margin to prevent overlap */
+  margin-bottom: 1rem;
 }
 
 .navbar-expand-lg .navbar-collapse.show + * {
-  padding-top: 3.5rem; /* Adjust padding for elements below navbar */
+  padding-top: 3.5rem;
 }
-
-/* mainbody-container CSS */
-
-/* .mainbody-container {
-    
-   
-    
-} */
 
 /*  Intro CSS */
 
@@ -137,13 +129,6 @@ ul li.nav-li a.nav-a:hover {
   transform: translateY(10px);
 }
 
-/* .wave {
-  position: absolute;
-  height: 300px;
-  width: 300px;
-  /* height: 150px; */
-*/
-
 /* Features CSS */
 
 .features {
@@ -164,9 +149,6 @@ ul li.nav-li a.nav-a:hover {
   width: 225px;
 }
 
-.cranf::hover {
-}
-
 .features .right {
   padding: 2rem;
   text-align: center;
@@ -174,11 +156,10 @@ ul li.nav-li a.nav-a:hover {
 
 ul.features-list {
   list-style: none;
- 
 }
 
 ul.features-list li.feature-item {
-  margin: 20px; 
+  margin: 20px;
   background-repeat: no-repeat;
   background-position: left center;
   margin-bottom: 5px;
@@ -256,7 +237,7 @@ span.head-p {
   align-items: center;
   display: flex;
   justify-content: center;
-  
+
   margin: 1rem;
 }
 
@@ -265,7 +246,7 @@ span.head-p {
   text-align: center;
 }
 .contact-left {
-  background: #CCCCCC ;
+  background: #cccccc;
 }
 
 .contact-h {
@@ -276,7 +257,6 @@ span.head-p {
 input.email {
   padding: 5px;
 }
-
 
 input.email,
 textarea {
@@ -292,7 +272,7 @@ button.submit {
   align-self: flex-end;
   padding: 10px;
   margin: 8px;
-  width:8rem;
+  width: 8rem;
   outline: 0;
   border: 0;
   border-radius: 8px;
@@ -303,22 +283,21 @@ button.submit {
   cursor: pointer;
 }
 
-button.submit:hover{
+button.submit:hover {
   cursor: pointer;
   background-color: rgb(194, 47, 47);
   color: #f5f5f5;
   border-radius: 21px;
 }
 
-.con-img{
+.con-img {
   border-radius: 4px;
 }
 
-.contact-img{
+.contact-img {
   height: 18.3rem;
   width: 21.3rem;
 }
-  
 
 /* footer */
 
@@ -391,7 +370,7 @@ button.submit:hover{
   color: #999;
 }
 
-.footer__item--extra{
+.footer__item--extra {
   flex-grow: 2;
 }
 
@@ -492,4 +471,4 @@ button.submit:hover{
   .footer_ul {
     flex: 2 0px;
   }
-} 
+}
